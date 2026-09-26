@@ -1,0 +1,62 @@
+# ---------------------------------------------------------------------------
+# Site configuration
+# ---------------------------------------------------------------------------
+title: "Farah Ayeb"
+tagline: "Network Security & AI Engineer"
+description: >-
+  Final-year Computer Networks & Telecommunications engineering student at
+  INSAT, focused on Network Security and AI.
+  Seeking a PFE internship.
+
+# IMPORTANT: url/baseurl
+# If you deploy this to <username>.github.io (a "user site"), baseurl MUST
+# be empty and url is your root domain, e.g.:
+url: "https://ayebfarah.github.io"
+baseurl: ""
+# If instead you deploy this to a PROJECT repo (e.g. github.com/you/portfolio),
+# GitHub Pages serves it at https://you.github.io/portfolio — in that case set:
+#   baseurl: "/portfolio"
+
+author:
+  name: "Farah Ayeb"
+  email: "farah.ayeb@insat.ucar.tn"
+  phone: "+216 93 260 002"
+  location: "Tunis, Tunisia"
+  github: "https://github.com/AyebFarah"
+  github_handle: "AyebFarah"
+  linkedin: "https://www.linkedin.com/in/farah-ayeb/"
+  status: "Open to End of Studies internships"
+  # Drop your headshot at assets/images/profile.jpg (or change this path)
+  photo: "/assets/images/profile.jpg"
+
+# ---------------------------------------------------------------------------
+# Build settings
+# ---------------------------------------------------------------------------
+markdown: kramdown
+sass:
+  style: compressed
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

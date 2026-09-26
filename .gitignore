@@ -1,0 +1,30 @@
+# Jekyll generated website output
+_site/
+
+# Jekyll and Sass caches
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler local configuration and installed dependencies
+.bundle/
+vendor/
+
+# Local environment files / secrets
+.env
+.env.*
+!.env.example
+Gemfile.lock
+
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE files
+.idea/
+*.iml
+.vscode/
+
+# Logs
+*.log

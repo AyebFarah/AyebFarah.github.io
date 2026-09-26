@@ -1,0 +1,13 @@
+<div class="card">
+  <h3>{{ include.project.title }}</h3>
+  <p>{{ include.project.excerpt }}</p>
+  <div class="link-row">
+    <a href="{{ include.project.url | relative_url }}">Read more</a>
+    {% if include.project.github %}
+      &nbsp;|&nbsp;<a href="{{ include.project.github }}" target="_blank" rel="noopener">View repo &#8599;</a>
+    {% endif %}
+  </div>
+  <div class="tags">
+    {% for tag in include.project.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+  </div>
+</div>

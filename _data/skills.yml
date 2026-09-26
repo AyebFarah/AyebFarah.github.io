@@ -1,0 +1,72 @@
+- group: "Cybersecurity & Networks"
+  items:
+    - Zero-Trust Architecture
+    - Network Security
+    - Intrusion Detection Systems (IDS)
+    - Threat Detection
+    - Anomaly Detection
+    - Security Monitoring
+    - MITRE ATT&CK
+    - Wireshark
+    - Suricata
+    - Open5GS
+    - UERANSIM
+    - Mininet
+    - Open vSwitch (OVS)
+    - Linux
+
+- group: "Artificial Intelligence & Data"
+  items:
+    - Machine Learning
+    - Natural Language Processing (NLP)
+    - Feature Engineering
+    - Clustering
+    - Data Analysis
+    - Exploratory Data Analysis (EDA)
+    - Information Retrieval
+    - Embeddings
+    - Pgvector
+
+- group: "Backend & Software Engineering"
+  items:
+    - Python
+    - Java
+    - C
+    - C++
+    - FastAPI
+    - SQLAlchemy
+    - REST APIs
+    - JWT Authentication
+    - Angular
+    - PostgreSQL
+    - MySQL
+    - Alembic
+
+- group: "Big Data & Cloud Technologies"
+  items:
+    - Apache Hadoop
+    - HDFS
+    - YARN
+    - Apache Spark
+    - HBase
+    - Distributed Computing
+    - Docker
+    - Kubernetes
+
+- group: "Tools & Platforms"
+  items:
+    - Git
+    - GitHub
+    - Grafana
+    - Prometheus
+    - Maven
+    - Jupyter Notebook
+
+- group: "Professional Skills"
+  items:
+    - Problem Solving
+    - Critical Thinking
+    - Teamwork
+    - Communication
+    - Adaptability
+    - Creativity

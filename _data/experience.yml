@@ -1,0 +1,50 @@
+- role: "Cybersecurity Intern"
+  company: "ITransform365"
+  location: "Remote"
+  dates: "07/2025 to 08/2025"
+  bullets:
+    - "Built a kernel-level network/system observation pipeline using Tetragon and Python collectors (DNS, TLS, TCP, HTTP, SSH), normalizing and correlating multi-source telemetry into unified, labeled per-connection records."
+    - "Designed and shipped 8 signal-specific collectors (DNS, TLS/JA4, SSH, TCP flow, process lifecycle, sensitive file access, privilege/capability, HTTP) unifying kernel-level telemetry and userspace packet parsing into one common event schema."
+    - "Extended the correlation engine to attach process lineage, bidirectional file/privilege activity windows, and directional HTTP request/response pairing onto each network connection, using distinct matching strategies suited to each signal's temporal semantics."
+    - "Engineered a sliding-window feature extraction pipeline (~90 features spanning network, DNS-tunneling heuristics, TLS/JA4 fingerprinting, HTTP, and process-lineage signals) producing a versioned, ML-ready dataset with idempotent rebuilds."
+    - "Designed and deployed an isolated two-VM attack-emulation lab covering 8 MITRE ATT&CK techniques (SSH brute force, port scanning, DNS tunneling, C2 beaconing, data exfiltration), with safety allow-listing and automated run-metadata capture."
+    - "Migrated the persistence layer to SQLAlchemy ORM, modeling 15+ relational tables with cascading foreign keys, deduplication constraints, and composite indexes for efficient time-windowed queries."
+  tags: [eBPF, Tetragon, Python, SQLAlchemy, Alembic, "MITRE ATT&CK", JA4, "Feature Engineering"]
+
+- role: "Full Stack & AI Intern"
+  company: "Yonnov'IA"
+  location: "Remote"
+  dates: "05/2026 to 06/2026"
+  bullets:
+    - "Developed an intelligent scientific article recommendation system for researchers, leveraging semantic embeddings, user profiling, and hybrid ranking techniques."
+    - "Built and optimized RESTful APIs with FastAPI for recommendation delivery, article similarity search, profile management, and user interaction workflows."
+    - "Developed scalable vector-search capabilities with pgvector, enabling efficient similarity retrieval and recommendation generation."
+    - "Improved system reliability through endpoint testing, debugging, validation scripts, and recommendation-engine verification."
+    - "Contributed to recommendation explainability and personalization features to enhance transparency and user experience."
+    - "Delivered a containerized full-stack architecture designed for modularity and scalability across independent services."
+  tags: [Python, Angular, FastAPI, PostgreSQL, Pgvector, FastEmbed, ONNX, "Cosine Similarity", "Approximate Nearest Neighbor (ANN)", HNSW, IVFFLAT]
+
+- role: "AI Intern"
+  company: "CrossRealms International"
+  location: "Remote"
+  dates: "07/2025 to 09/2025"
+  bullets:
+    - "Developed and evaluated AI-based network traffic analysis models for automated threat detection and cybersecurity anomaly detection in a collaborative environment."
+    - "Performed extensive exploratory data analysis (EDA) on network flow and attack datasets to identify traffic patterns, anomalies, and security-relevant features."
+    - "Implemented and compared multiple machine learning algorithms for malicious traffic classification and anomaly detection, analyzing performance across different datasets and attack scenarios."
+    - "Processed and engineered features from network flow, honeypot, and intrusion detection system datasets to improve model effectiveness and interpretability."
+    - "Integrated and analyzed Suricata IDS alerts and scoring data to enrich security datasets and support threat intelligence workflows."
+    - "Collaborated with a multidisciplinary team to investigate AI-driven approaches for network monitoring, intrusion detection, and automated security analysis."
+  tags: [AI, "Network Traffic Analysis", "Anomaly Detection", "Suricata IDS", "Exploratory Data Analysis (EDA)", "Clustering Algorithms", "Data Mining"]
+
+- role: "Networks Intern"
+  company: "Tunisie Télécom"
+  location: "Bardo, Tunisia"
+  dates: "07/2025"
+  bullets:
+    - "Designed and implemented an experimental Zero-Trust architecture for a 5G Core network, leveraging Open5GS and UERANSIM to secure communications between network functions."
+    - "Deployed and configured key 5G Core Network Functions (AMF, SMF, UPF, AUSF, UDM, PCF) in a virtualized environment and validated end-to-end connectivity between simulated users and the core network."
+    - "Implemented Zero-Trust security controls, including access-control policies, micro-segmentation, authentication verification and traffic isolation mechanisms."
+    - "Built a monitoring and observability stack using Prometheus, Grafana, and Node Exporter to collect, visualize, and analyze real-time network and system metrics."
+    - "Delivered an end-to-end experimental 5G Core infrastructure with Zero-Trust security controls, real-time monitoring dashboards, and automated traffic analysis capabilities for security and performance evaluation."
+  tags: ["5G Core", Open5GS, UERANSIM, Wireshark, Network Security, "Zero-Trust", Prometheus, Grafana]

@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<section class="project-detail">
+  <a class="back-link" href="{{ '/' | relative_url }}#work">&larr; Back to projects</a>
+  {% if page.flag %}<div class="flag">{{ page.flag }}</div>{% endif %}
+  <h1>{{ page.title }}</h1>
+  <div class="tags">
+    {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+  </div>
+
+  {% if page.pipeline %}
+  <div class="pipeline">{% for step in page.pipeline %}{{ step }}
+    {% endfor %}</div>
+  {% endif %}
+
+  {% if page.highlights %}
+  <ul>
+    {% for point in page.highlights %}<li>{{ point }}</li>{% endfor %}
+  </ul>
+  {% endif %}
+
+  <div class="body-copy">
+    {{ content }}
+  </div>
+
+  {% if page.github %}
+  <p><a href="{{ page.github }}" target="_blank" rel="noopener">View repository on GitHub &#8599;</a></p>
+  {% endif %}
+</section>

@@ -1,0 +1,22 @@
+certifications:
+  - name: "CPPS, Certified Phishing Prevention Specialist"
+    url: "https://academy.hackandfix.com/certificate-page/?user=16107&course=53700"
+  - name: "Elements of AI for Business"
+    url: "https://courses.minnalearn.com/certificate/en/elements-of-ai-for-business/a6bf9283-6d3b-439b-accf-dc792efa626f"
+  - name: "CCNA: Introduction to Networks, Cisco"
+    url: "https://www.credly.com/badges/fb8e041d-063c-441f-ab22-e5e58b508c1d/linked_in_profile"
+
+organisations:
+  - "Securinets INSAT"
+  - "Tunisian Red Crescent"
+  - "Junior Chamber International (JCI)"
+
+languages:
+  - name: "Arabic"
+    level: "Native"
+  - name: "English"
+    level: "Fluent"
+  - name: "French"
+    level: "Advanced"
+  - name: "Spanish"
+    level: "Basic"
