@@ -14,7 +14,6 @@ vendor/
 .env
 .env.*
 !.env.example
-Gemfile.lock
 
 
 # OS files
