@@ -6,7 +6,7 @@ tagline: "Network Security & AI Engineer"
 description: >-
   Final-year Computer Networks & Telecommunications engineering student at
   INSAT, focused on Network Security and AI.
-  Seeking a PFE internship.
+  Seeking an End of Studies internship.
 
 # IMPORTANT: url/baseurl
 # If you deploy this to <username>.github.io (a "user site"), baseurl MUST
@@ -25,9 +25,8 @@ author:
   github: "https://github.com/AyebFarah"
   github_handle: "AyebFarah"
   linkedin: "https://www.linkedin.com/in/farah-ayeb/"
-  status: "Open to End of Studies internships"
-  # Drop your headshot at assets/images/profile.jpg (or change this path)
-  photo: "/assets/images/profile.jpg"
+  status: "Open to End of Studies Internships"
+  photo: "/assets/images/profile.png"
 
 # ---------------------------------------------------------------------------
 # Build settings

@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home
+title: Farah Ayeb | Network Security & AI Engineer
 hero_title: "Hello, I'm Farah Ayeb"
 hero_kicker: "Security Network and AI Engineer"
 hero_lead: >-

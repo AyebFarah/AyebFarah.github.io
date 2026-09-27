@@ -1,7 +1,7 @@
 - role: "Cybersecurity Intern"
   company: "ITransform365"
   location: "Remote"
-  dates: "07/2025 to 08/2025"
+  dates: "07/2026 to 08/2026"
   bullets:
     - "Built a kernel-level network/system observation pipeline using Tetragon and Python collectors (DNS, TLS, TCP, HTTP, SSH), normalizing and correlating multi-source telemetry into unified, labeled per-connection records."
     - "Designed and shipped 8 signal-specific collectors (DNS, TLS/JA4, SSH, TCP flow, process lifecycle, sensitive file access, privilege/capability, HTTP) unifying kernel-level telemetry and userspace packet parsing into one common event schema."
