@@ -527,6 +527,10 @@ footer.site-footer{color:var(--muted); font-size:12px; margin-top:40px;}
   .about-intro{flex-direction:column; align-items:center; text-align:center;}
   .about-copy p{max-width:none;}
   .about-meta{text-align:left;}
-  .profile-frame{width:clamp(132px, 28vw, 180px); height:clamp(132px, 28vw, 180px);}
-  .tl-head{flex-direction:column; gap:2px;}
+  .profile-frame{
+    width:clamp(132px, 28vw, 180px);
+    height:clamp(132px, 28vw, 180px);
+    margin-top: 0;
+  }
 }
+
